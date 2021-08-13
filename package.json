@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/keshav143420/typescript-jest-template/issues"
   },
-  "homepage": "https://github.com/keshav143420/typescript-jest-template#readme"
+  "homepage": "https://github.com/keshav143420/typescript-jest-template#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
