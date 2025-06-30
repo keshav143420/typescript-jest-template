@@ -5,11 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:ci": "jest --ci",
-    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch --verbose",
+    "test:coverage": "jest --coverage --verbose",
+    "test:ci": "jest --ci --verbose",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand --verbose",
     "build": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
