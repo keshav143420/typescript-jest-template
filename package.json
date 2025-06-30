@@ -2,6 +2,7 @@
   "name": "typescript-jest-template",
   "version": "1.0.0",
   "description": "typescript-jest-template",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -29,6 +30,7 @@
     "eslint-plugin-prettier": "^5.5.1",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
