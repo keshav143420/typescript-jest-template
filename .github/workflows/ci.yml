@@ -3,9 +3,11 @@ name: CI
 
 on:
   push:
-    branches: ['**']
+    branches:
+      - '**' # This explicitly means all branches
   pull_request:
-    branches: ['**']
+    branches:
+      - '**' # This explicitly means all branches
 
 jobs:
   test:
